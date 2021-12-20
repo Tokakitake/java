@@ -7,7 +7,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class HomeWorkLesson2 {
+public class HomeWorkLesson3 {
     static int[] array(int len, int initialValue) {
         int[] arr = new int [len];
         Arrays.fill(arr, initialValue);
