@@ -1,7 +1,7 @@
 package homeWork2;
 
 /**
- * Java Core HomeWork 1
+ * Java Core HomeWork 2
  * @author Muratov Nail
  * @version 18.01.2022
  */
