@@ -13,62 +13,6 @@ public class API {
     static OkHttpClient client = new OkHttpClient();
     static ObjectMapper objectMapper = new ObjectMapper();
 
-    private String city;
-    private String date;
-    private String weather;
-    private double temperatureMin;
-    private double temperatureMax;
-
-    public API(ObjectMapper objectMapper) {
-        this.city = city;
-        this.date = date;
-        this.weather = weather;
-        this.temperatureMin = temperatureMin;
-        this.temperatureMax = temperatureMax;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
-    }
-
-    public void setWeather(String weather) {
-        this.weather = weather;
-    }
-
-    public static ObjectMapper getObjectMapper() {
-        return objectMapper;
-    }
-
-
-    public double getTemperatureMin() {
-        return temperatureMin;
-    }
-
-    public void setTemperatureMin(double temperatureMin) {
-        this.temperatureMin = temperatureMin;
-    }
-
-    public double getTemperatureMax() {
-        return temperatureMax;
-    }
-
-    public void setTemperatureMax(double temperatureMax) {
-        this.temperatureMax = temperatureMax;
-    }
-
-
     public static String getWeather() throws IOException {
 
         HttpUrl detectWeather = new HttpUrl.Builder()
